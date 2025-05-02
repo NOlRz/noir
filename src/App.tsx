@@ -81,7 +81,7 @@ function App() {
           className="fixed inset-0 bg-black bg-opacity-96 flex items-center justify-center cursor-pointer z-50"
           onClick={handleEnter}
         >
-          <span className="text-pink-300 text-2xl animate-blink hover:animate-pulse-glow transition-all duration-300">
+          <span className="text-pink-300 text-2xl animate-blink transition-all duration-300">
             "CLICK_TO_ENTER"
           </span>
         </div>
@@ -99,7 +99,7 @@ function App() {
       </div>
 
       {/* Corner Decoration */}
-      <div className="fixed bottom-5 left-5 text-sm text-pink-300 opacity-50 animate-pulse-glow z-40">
+      <div className="fixed bottom-5 left-5 text-sm text-pink-300 opacity-50 z-40">
         ♥ ♥ ♥
       </div>
 
@@ -117,7 +117,7 @@ function App() {
       {/* Main Content */}
       <div className="relative z-40">
         {/* ASCII Art Logo */}
-        <pre className="text-pink-300 text-xs sm:text-sm md:text-base animate-glitch mb-8 mt-8 hover:animate-pulse-glow transition-all duration-300">
+        <pre className="text-pink-300 text-xs sm:text-sm md:text-base animate-glitch mb-8 mt-8 transition-all duration-300">
 {`   ███▄    █  ▒█████   ██▓ ██▀███  
  ██ ▀█   █ ▒██▒  ██▒▓██▒▓██ ▒ ██▒
 ▓██  ▀█ ██▒▒██░  ██▒▒██▒▓██ ░▄█ ▒
